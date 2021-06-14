@@ -1,5 +1,5 @@
 build
-.idea
-nbproject
+.idea/workspace.xml
+nbproject/private
 .gradle
 .nb-gradle
