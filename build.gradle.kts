@@ -9,8 +9,8 @@ plugins {
 version = "0.0.1"
 
 omegat {
-    version = "5.4.1"
-    pluginClass = plugin.class
+    version = "5.5.0"
+    pluginClass = "org.omegat.plugin.machinetranslators.Google2Translate"
 }
 
 dependencies {
