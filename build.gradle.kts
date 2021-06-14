@@ -1,18 +1,16 @@
 plugins {
     java
-    // groovy
-    // kotlin("jvm") version "1.3.72"
     checkstyle
     distribution
     maven
-    id("org.omegat.gradle") version "1.4.2"
+    id("org.omegat.gradle") version "1.5.3"
 }
 
 version = "0.0.1"
 
 omegat {
     version = "5.4.1"
-    pluginClass = "org.omegat.filters2.text.dokuwiki.DokuWikiFilter"
+    pluginClass = plugin.class
 }
 
 dependencies {
@@ -21,9 +19,6 @@ dependencies {
     implementation("commons-lang:commons-lang:2.6")
     implementation("org.slf4j:slf4j-nop:1.7.21")
     testImplementation("junit:junit:4.12")
-    testImplementation("xmlunit:xmlunit:1.6")
-    testImplementation("org.madlonkay.supertmxmerge:supertmxmerge:2.0.1")
-    testImplementation("com.alibaba:fastjson:1.2.17")
 }
 
 checkstyle {

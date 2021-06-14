@@ -1,4 +1,9 @@
-# OmegaT plugin development skeleton
+# OmegaT MT plugin development skeleton
+
+
+This source code and documentation should serve as a reference for anyone interested in creating a plugin for OmegaT. Refer t
+o the 'Creating a OmegaT Plugin.odt' document on how to create a plugin for OmegaT.
+
 
 ## How to get skeleton into your project
 
