@@ -29,7 +29,7 @@ checkstyle {
 distributions {
     main {
         contents {
-            from("README.md", "COPYING", "CHANGELOG.md")
+            from("README.md", "COPYING")
         }
     }
 }
